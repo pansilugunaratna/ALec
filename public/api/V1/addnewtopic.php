@@ -11,10 +11,10 @@
 	$result = mysqli_query($conn, $sql);
 	
 	if($result){
-		echo "New Topic created successfully";
+		echo "Success";
 	}
 	else{
-		echo "Error";
+		echo "Error Creating The Topic!";
 	}
 	
 	mysqli_close($conn);
